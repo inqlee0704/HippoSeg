@@ -49,6 +49,8 @@ if __name__ == "__main__":
 
     # run training
     exp.run()
+    # Track: tensorboard --logdir runs --bind_all
+    # port: 6006
 
     # prep and run testing
     results_json = exp.run_test()
